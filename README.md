@@ -23,18 +23,23 @@ Tugas dari layer ini menjadi dinding penghubung antara user dan sistem. Menerima
 # Catatan
 - Sorting
     1. Product terbaru 
-        sortBy = created_at atau kosong ("")
-        sortType = desc atau kosong ("")
+        - sortBy = created_at atau kosong ("")
+        - sortType = desc atau kosong ("")
     2. Product harga termurah
-        sortBy = price
-        sortType = asc
+        - sortBy = price
+        - sortType = asc
     3. Product harga terendah
-        sortBy = price
-        sortType = asc
-    4. - Sort by product name (A-Z)
-        sortBy = name
-        sortType = asc
-      - Sort by product name (Z-A)
-        sortBy = name
-        sortType = desc
-          
+        - sortBy = price
+        - sortType = asc
+    4. Sort by product name (A-Z)
+        - sortBy = name
+        - sortType = asc
+      Sort by product name (Z-A)
+        - sortBy = name
+        - sortType = desc
+
+- Run aplikasi
+    1. buat database erajaya
+    2. jalankan redis
+    3. go run main.go atau air . (jika menggunakan air) atau gunakan docker 
+
