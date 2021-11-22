@@ -29,7 +29,7 @@ Tugas dari layer ini menjadi dinding penghubung antara user dan sistem. Menerima
         - sortBy = price
         - sortType = asc
     3. Product harga terendah
-        - sortBy = price
+        - sortBy = quantity
         - sortType = asc
     4. Sort by product name (A-Z)
         - sortBy = name
